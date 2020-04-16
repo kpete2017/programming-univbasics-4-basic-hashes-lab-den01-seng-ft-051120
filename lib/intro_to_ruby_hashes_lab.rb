@@ -1,15 +1,14 @@
 def new_hash
-  {}
+  hash = {}
+  hash
 end
 
 def my_hash
-  Hash.new
+  { favorite_instrument: "guitar" }
 end
 
 def pioneer
-  newHash = {
-    :name = "Grace Hopper"
-  }
+     { name: "Grace Hopper" }
 end
 
 
